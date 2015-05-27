@@ -1,0 +1,23 @@
+{
+  "name": "ui-kit",
+  "version": "0.0.0",
+  "homepage": "https://github.com/fireball-x/ui-kit",
+  "authors": [
+    "kamisama <1457434343@qq.com>"
+  ],
+  "description": "Fireball styleguid",
+  "keywords": [
+    "Fireball"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "0.9"
+  }
+}

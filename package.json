@@ -4,8 +4,24 @@
   "description": "Editor Framework UI Kit",
   "author": "Firebox Technology",
   "hosts": {
-      "editor-framework": "0.0.1"
+    "editor-framework": "0.0.1"
   },
-  "widgets": {
-  }
+  "widgets": {},
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fireball-x/ui-kit"
+  },
+  "keywords": [
+    "Fireball",
+    "UI-KIT"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fireball-x/ui-kit/issues"
+  },
+  "homepage": "https://github.com/fireball-x/ui-kit"
 }
