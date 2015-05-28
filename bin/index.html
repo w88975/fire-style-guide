@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fireball UI KIT</title>
+
+  <meta name="description" content="Fireball UI KIT">
+  <meta name="generator" content="kss-node">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="public/kss.css">
+  <link rel="stylesheet" href="public/layout.css">
+  
+</head>
+<body id="kss-node">
+    <div class="heading">
+        <div class="navbar">
+            <img src="public/logo.png" class="logo" height="30px"/>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sliderbar">
+            <div class="fixed">
+                <h3 class="doc-title">Fireball UI KIT</h3>
+
+                <nav>
+                  <ul class="menu">
+                    <a href="./index.html">
+                        <li class="root">
+                            <span>Overview</span>
+                        </li>
+                    </a>
+                    <a href="section-fireball.html">
+                        <li class="root">
+                            <span>Fireball</span>
+                        </li>
+                    </a>
+
+                    <a href="section-javascript-api.html">
+                        <li class="root">
+                            <span>JavaScript API</span>
+                        </li>
+                    </a>
+
+                    <a href="section-spec.html">
+                        <li class="root">
+                            <span>About Fire-UI</span>
+                        </li>
+                    </a>
+
+                  </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="content">
+            <article role="main" class="kss-main">
+              <div id="kssref-0" class="kss-section kss-section--depth-0 kss-overview kss-style">
+                 <h1 id="building-style-guides-with-kss-node">Building style guides with kss-node</h1>
+<p>This software is a Node.js implementation of <a href="https://github.com/kneath/kss">Knyle Style Sheets</a> (KSS), &quot;a documentation syntax for CSS&quot; that&#39;s intended to have syntax readable by humans <em>and</em> machines. Hence, the kss-node software can be used to create a &quot;living style guide&quot;.</p>
+<ol>
+<li>Write human-readable documentation using &quot;KSS syntax&quot; comments. Can be added to CSS, Sass, LESS, or any other CSS Preprocessor files.</li>
+<li>Have <code>kss-node</code> auto-generate a style guide from your stylesheets.</li>
+</ol>
+<p>Here&#39;s an example KSS comment:</p>
+<pre class="prettyprint linenums lang-css"><code data-language="css">/*
+Button
+
+Your standard button suitable for clicking.
+
+:hover   - Highlights when hovering.
+.shiny   - Do not press this big, shiny, red button.
+
+Style guide: components.button
+*/
+.button {
+  ...
+}
+.button.shiny {
+  ...
+}
+</code></pre>
+
+<p><strong>For more information on how to write KSS comments, see the <a href="https://github.com/kss-node/kss/blob/spec/SPEC.md">KSS spec</a>.</strong></p>
+<h2 id="kss-node-fireball">kss-node Fireball</h2>
+<p>This site is generated with the <code>kss-node</code> command-line tool and parses the KSS documentation found in this <a href="https://github.com/kss-node/kss-node/tree/master/Fireball">Fireball project</a>.</p>
+<p>The styling of this site is a Fireball of <a href="https://github.com/kss-node/kss-node">kss-node</a>&#39;s default style guide generator. By using the site navigation to the left (or above), you can see how your documentation would look with the default generator. Note that alternate generators are available.</p>
+<h2 id="javascript-api">JavaScript API</h2>
+<p>If you don&#39;t wish to use the default style guide template, you can either:</p>
+<ul>
+<li>write your own template that uses the default kssHandlebarsGenerator style guide generator, or</li>
+<li>write your own style guide generator, or</li>
+<li>use the JavaScript object representation of the style guide, KssStyleguide.</li>
+</ul>
+<p><strong>For more information on how to integrate kss-node with your own JavaScript, see the <a href="./section-javascript-api.html">JavaScript API documentation</a>.</strong></p>
+<h2 id="project-homepage">Project homepage</h2>
+<p>Check out the <a href="https://github.com/kss-node/kss-node">project on Github</a> for more information about the code.</p>
+
+              </div>
+            </article>
+
+            <!-- SCRIPTS -->
+            <script src="public/kss.js"></script>
+            <script src="public/prettify.js"></script>
+            <script>
+              prettyPrint();
+            </script>
+            
+        </div>
+    </div>
+
+</body>
+</html>

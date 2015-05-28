@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+a,a:active {
+    text-decoration:none;
+}
+
+li {
+    list-style: none;
+}
+.heading {
+    width: 100%;
+    height: 50px;
+    background: #3e3e3e;
+    position: fixed;
+    top: 0px;
+}
+
+.logo {
+    margin-top: 7px;
+}
+
+.container {
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    margin-top: 50px;
+    flex-flow: col;
+}
+
+.sliderbar {
+    width: 240px;
+    min-width: 240px;
+    border-bottom: 0;
+    display: flex;
+    flex-flow: column;
+    background: #333;
+    color: white;
+}
+
+.sliderbar a {
+    color: white;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    background: white;
+}
+
+.fixed {
+    position: fixed;
+    width: 240px;
+}
+
+.doc-title {
+    text-align: center;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.menu {
+
+}
+
+.menu .root {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 1px solid #515151;
+    transition: all 0.2s cubic-bezier(0.75, 0.25, 0.25, 0.75);
+}
+
+.menu .child {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 12px;
+    padding-left: 35px;
+    width: 100%;
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.75, 0.25, 0.25, 0.75);
+}
+
+.menu .child a{
+
+}
+
+.menu .child:hover {
+    background: #cdcdcd;
+}
+
+.menu .root:hover {
+    background: #cdcdcd;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+.kss-main {
+    min-width: 800px;
+}
+
+
+.navbar {
+    width: 980px;
+    height: 50px;
+    margin: auto;
+}
