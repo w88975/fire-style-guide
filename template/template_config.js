@@ -30,5 +30,5 @@ module.exports.options = {
     multiple: false,
     describe: 'Title of the style guide',
     default: 'KSS Style Guide'
-  }
+    }
 };

@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+a,a:active {
+    text-decoration:none;
+}
+
+li {
+    list-style: none;
+}
+.heading {
+    width: 100%;
+    height: 50px;
+    background: #3e3e3e;
+    position: fixed;
+    top: 0px;
+}
+
+.container {
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    margin-top: 50px;
+    flex-flow: col;
+}
+
+.sliderbar {
+    width: 240px;
+    min-width: 240px;
+    border-bottom: 0;
+    display: flex;
+    flex-flow: column;
+    background: rgb(27,28,29);
+    color: white;
+}
+
+.sliderbar a {
+    color: #b9b9b9;
+}
+
+/*.tab {
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-right: 5px;
+    height: 20px;
+    background: rgb(51,51,51);
+}
+
+.tab_border {
+    display: table;
+    height: 21px;
+    margin-top: -2px;
+    margin-left: -1px;
+    position: absolute;
+    z-index: 9;
+    border-right: 1px solid rgb(31,31,31);
+    border-top: 1px solid rgb(31,31,31);
+}
+
+.tab_title {
+    background: rgb(68,68,68);
+    background-color: #444;
+    display: table;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0px 4px;;
+    box-sizing: border-box;
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu_border {
+    display: flex;
+    flex: 1;
+    background-color: #474747;
+    position: relative;
+    border-top: 1px solid #212121;
+    z-index: 8;
+    margin-top: -2px;
+}
+
+.menu {
+    flex: 1;
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #474747;
+}*/
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    background: white;
+}
+
+.fixed {
+    position: fixed;
+    width: 240px;
+}
+
+.doc-title {
+    text-align: center;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.menu .root {
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid #515151;
+}
+
+.menu .child {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 12px;
+    padding-left: 35px;
+    width: 100%;
+    color: rgb(31, 233, 220);
+    cursor: pointer;
+}
+
+.menu .child:hover {
+    background: white;
+}
+
+.menu .root:hover {
+    background: white;
+}
+
+.kss-main {
+    min-width: 800px;
+}
+
+
+.navbar {
+    width: 980px;
+    margin: auto;
+}

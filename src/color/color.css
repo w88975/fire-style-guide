@@ -1,24 +1,17 @@
-// Buttons
+// Color
 //
-// test button
+// test Color
 //
-// Markup: buttons.html
 //
 // .primary   - Use this class to indicate that the button is the primary
 //              feature of this form.
-// disabled   - disabled 
 // .remove    - Use this class to indicate that the button will remove a
 //              feature, or other negative connotations.
 // :hover     - Highlight the button when hovered.
 // :disabled  - Make the button change appearance to reflect it being disabled.
 // :active    - "Press" the button down when clicked.
 //
-// Style guide: Fireball.button
-
-.button{
-    background: red;
-}
-
-.button:hover {
-    background: red;
+// Style guide: Fireball.Color
+.testfufu{
+    color: white;
 }
