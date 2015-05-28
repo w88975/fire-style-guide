@@ -7,7 +7,7 @@ Build for [`kss-node`](https://github.com/kss-node/kss-node).
 
 # preview
 
-[http://xxx](http://xxx)
+[preview](http://w88975.github.io/ui-kit/bin/index.html)
 
 ----
 
