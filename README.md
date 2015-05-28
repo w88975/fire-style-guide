@@ -1,19 +1,25 @@
-# ui-kit
-The UI kit used in Editor Framework
+# Fireball UI-Kit
+The Fireball UI Kit used in Editor Framework.
+
+Build for [`kss-node`](https://github.com/kss-node/kss-node).
 
 ----
 
-#### build
+# Install
 ```shell
+# install kss-node
 $ npm install -g kss
-$ kss-node src/ bin/ --template template/
+
+#install polymer
+$ bower install .
 ```
 ----
 
-#### run test
+#### Build
 
 ```shell
 
-bin/index.html
+# dist path: ./bin/
+$ kss-node src/ bin/ --template template/
 
 ```
