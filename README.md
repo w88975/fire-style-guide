@@ -5,9 +5,9 @@ Build for [`kss-node`](https://github.com/kss-node/kss-node).
 
 ----
 
-# preview
+# Preview
 
-[preview](http://w88975.github.io/ui-kit/bin/index.html)
+[Demo](http://w88975.github.io/fire-style-guide/bin/index.html)
 
 ----
 
